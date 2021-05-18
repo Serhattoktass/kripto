@@ -1,0 +1,6 @@
+body{
+    background-color: rgba(60, 255, 0, 0.945);
+}
+p{text-align: center;}
+h4{text-align: center;}
+p#title{color: red;}
