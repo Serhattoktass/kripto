@@ -1,6 +1,39 @@
+ #baslik{
+    text-align:center;
+    color: red;
+    }
+
 body{
     background-color: rgba(60, 255, 0, 0.945);
 }
 p{text-align: center;}
 h4{text-align: center;}
 p#title{color: red;}
+
+input{
+    color: red;
+}
+input::placeholder{
+    color: red;
+}
+
+textarea{
+    color: black;
+}
+textarea::placeholder{
+    color:black;
+    font-size: 20px;
+}
+
+.button::before{
+    content: attr(data-hide);
+    background-color:red;
+}
+.checkbox:checked+.button::before{
+    content: attr(data-show);
+    background-color:rgb(95, 231, 41);
+}
+
+p:hover{
+    background-color: rgb(158, 17, 223);
+}
