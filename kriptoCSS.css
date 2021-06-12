@@ -2,13 +2,15 @@
     text-align:center;
     color: red;
     }
+img{
 
-body{
-    background-color: rgba(60, 255, 0, 0.945);
+    display: block;
+        margin: 0 auto;
 }
-p{text-align: center;}
-h4{text-align: center;}
-p#title{color: red;}
+
+p,h4 {text-align: center;}
+p#baslik1{color: red;}
+
 
 input{
     color: red;
@@ -34,6 +36,43 @@ textarea::placeholder{
     background-color:rgb(95, 231, 41);
 }
 
-p:hover{
-    background-color: rgb(158, 17, 223);
+ p:hover{
+    font-size: large;
+    background-color: rgb(94, 255, 88);
 }
+
+input:invalid+span::before{
+    content: 'x';
+    color: red;
+}
+
+input:valid{     
+    border-color: green;
+}
+
+input:valid+span::before{
+    content: '✓';
+    color:green ;
+}
+
+
+textarea{
+    outline: none;
+    border: 3px solid red;
+}
+textarea:focus{
+    border-color: green blue;
+}
+
+.goodby{
+    width: 350px;
+    height: 100px;
+    padding: 40px;
+    border: 10px dashed rgb(49, 183, 245);
+    background-image: url(by.jpg),url(by2.jpg),url(by2.jpg); 
+    background-repeat: no-repeat;
+    background-position: center,top left 20px, bottom 20px right 20px ; 
+    background-size: 120px,120px,120px;
+}
+
+
