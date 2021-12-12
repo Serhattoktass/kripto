@@ -1,2 +1,2 @@
 # kripto
-Kripto paralar üzerine başlangıç seviyesinde proje
+Kripto para proje başlangıç seviyesi
